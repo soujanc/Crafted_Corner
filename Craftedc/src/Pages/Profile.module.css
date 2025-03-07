@@ -1,0 +1,226 @@
+.profileContainer {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    min-height: 80vh;
+}
+
+.mainContent {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    min-height: 500px;
+    flex: 1;
+}
+
+.sidebar {
+    width: 180px;
+    background-color: #f5f5f5;
+    padding: 1.2rem;
+    border-radius: 8px 0 0 8px;
+    font-size: 12px;
+}
+
+.profileHeader {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.profileImage {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.username {
+    font-weight: 600;
+    color: #333;
+    font-size: 12px;
+}
+
+.menuList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menuItem {
+    padding: 0.6rem;
+    margin: 0.4rem 0;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.2s;
+    color: #666;
+    font-size: 12px;
+}
+
+.menuItem:hover {
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+.active {
+    background-color: #e0e0e0;
+    color: #333;
+    font-weight: 500;
+}
+
+.content {
+    flex: 1;
+    padding: 2rem;
+    font-size: 12px;
+}
+
+/* Profile Details Styles */
+.profileDetails h3,
+.orderHistory h3,
+.addressBook h3 {
+    font-size: 16px;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.formGroup {
+    max-width: 400px;
+}
+
+.inputGroup {
+    margin-bottom: 1rem;
+}
+
+.inputGroup label {
+    display: block;
+    margin-bottom: 0.3rem;
+    color: #666;
+}
+
+.inputGroup input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.saveButton {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+/* Order History Styles */
+.orderList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.orderCard {
+    border: 1px solid #eee;
+    border-radius: 6px;
+    padding: 1rem;
+}
+
+.orderHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.orderStatus {
+    color: #4caf50;
+}
+
+.orderDetails {
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+.orderDetails p {
+    margin: 0.2rem 0;
+}
+
+.viewButton {
+    background-color: transparent;
+    border: 1px solid #4a90e2;
+    color: #4a90e2;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+/* Address Book Styles */
+.addressList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.addressCard {
+    border: 1px solid #eee;
+    border-radius: 6px;
+    padding: 1rem;
+}
+
+.addressHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.addressActions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.editButton,
+.deleteButton {
+    background-color: transparent;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 11px;
+}
+
+.editButton {
+    border: 1px solid #4a90e2;
+    color: #4a90e2;
+}
+
+.deleteButton {
+    border: 1px solid #ff4d4f;
+    color: #ff4d4f;
+}
+
+.addButton {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.addressDetails p {
+    margin: 0.2rem 0;
+    color: #666;
+}
